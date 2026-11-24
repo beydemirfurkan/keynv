@@ -1,6 +1,6 @@
 import { validation } from '@keynv/core';
 import type { z } from 'zod';
-import type { ZodType, ZodTypeDef } from 'zod';
+import type { ZodType } from 'zod';
 
 export const testerEnum = validation.testerName;
 export type TesterType = z.infer<typeof testerEnum>;
@@ -41,7 +41,7 @@ export interface Tester<T extends TesterTarget = TesterTarget> {
    * zod's defaults / coercions turn them into the strongly-typed
    * output the tester sees.
    */
-  readonly schema: ZodType<T, ZodTypeDef, unknown>;
+  readonly schema: ZodType<T, unknown>;
   test(secret: ResolvedSecret, target: T): Promise<TestResult>;
 }
 

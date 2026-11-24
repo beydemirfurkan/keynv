@@ -1,4 +1,4 @@
-import type { SafeParseError, z } from 'zod';
+import type { ZodError, z } from 'zod';
 
 export type ActionResult = {
   error?: string;
@@ -8,7 +8,7 @@ export type ActionResult = {
 /** Convenience alias consumed by server-action callers. */
 export type ActionState = ActionResult;
 
-function formatZodIssues(error: SafeParseError<unknown>['error']): string {
+function formatZodIssues(error: ZodError): string {
   return error.issues.map((i) => `${i.path.join('.') || '<root>'}: ${i.message}`).join('; ');
 }
 
