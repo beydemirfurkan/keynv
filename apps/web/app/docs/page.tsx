@@ -70,7 +70,7 @@ export default function DocsIndex() {
           </p>
         </div>
         <a
-          href="https://github.com/keynv-labs/keynv/tree/main/docs"
+          href="https://github.com/beydemirfurkan/keynv/tree/main/docs"
           target="_blank"
           rel="noreferrer"
         >

@@ -196,7 +196,7 @@ preview. A polished card 5-10x's CTR per industry benchmark.
 
 ### 1.2 · `/docs` route with MDX  (step 2a)
 
-**Why.** Today docs live only at github.com/keynv-labs/keynv/docs. On
+**Why.** Today docs live only at github.com/beydemirfurkan/keynv/docs. On
 mobile that's painful, not shareable as a permalink, and no syntax
 highlighting on long examples.
 
@@ -332,7 +332,7 @@ minimum.
 
 1. **GitHub stars.** Server component:
    ```tsx
-   const data = await fetch('https://api.github.com/repos/keynv-labs/keynv', {
+   const data = await fetch('https://api.github.com/repos/beydemirfurkan/keynv', {
      next: { revalidate: 3600 },
      headers: { 'user-agent': 'keynv-web' }
    }).then(r => r.json());

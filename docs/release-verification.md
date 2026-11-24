@@ -30,7 +30,7 @@ brew install cosign
 Set release metadata:
 
 ```sh
-export REPO="keynv-labs/keynv"
+export REPO="beydemirfurkan/keynv"
 export TAG="v0.2.0"
 export VERSION="${TAG#v}"
 export ARTIFACT="keynv-linux-x64"

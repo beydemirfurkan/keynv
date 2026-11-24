@@ -12,7 +12,7 @@ die() {
   exit 1
 }
 
-KEYNV_REPO_URL=https://github.com/keynv-labs/keynv.git
+KEYNV_REPO_URL=https://github.com/beydemirfurkan/keynv.git
 KEYNV_INSTALL_ROOT=/opt/keynv
 KEYNV_CONFIG_DIR=/etc/keynv
 KEYNV_STATE_DIR=/var/lib/keynv

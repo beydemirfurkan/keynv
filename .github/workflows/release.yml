@@ -338,7 +338,7 @@ jobs:
         with:
           path: dist-release
           merge-multiple: true
-          # Skip the docker provenance artifact (keynv-labs~keynv~*.dockerbuild)
+          # Skip the docker provenance artifact (<owner>~keynv~*.dockerbuild)
           # uploaded by docker/build-push-action; keep CLI binaries and SBOMs.
           pattern: keynv-*-*
       - name: Generate source SBOM

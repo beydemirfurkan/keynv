@@ -8,7 +8,7 @@ keynv is a secrets-management product. Vulnerability reports are taken seriously
 fits:
 
 1. **GitHub Private Vulnerability Reporting** (recommended) — open a private
-   advisory at <https://github.com/keynv-labs/keynv/security/advisories/new>.
+   advisory at <https://github.com/beydemirfurkan/keynv/security/advisories/new>.
    GitHub-native, end-to-end private until coordinated disclosure.
 2. **Email** the maintainer at `meinrufretterinfo@gmail.com` (we run keynv
    solo until the project graduates a real `security@` mailbox under the

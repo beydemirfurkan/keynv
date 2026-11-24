@@ -17,7 +17,7 @@ In Coolify, create a new resource → **Docker Compose Empty** → "From Git
 Repository" and point it at:
 
 ```
-https://github.com/keynv-labs/keynv
+https://github.com/beydemirfurkan/keynv
 deploy/coolify.yml
 ```
 

@@ -1,7 +1,7 @@
 # keynv Helm chart default values. Override with --set or -f values.yaml.
 
 image:
-  repository: ghcr.io/keynv-labs/keynv-server
+  repository: ghcr.io/beydemirfurkan/keynv-server
   # Defaults to chart appVersion when empty.
   tag: ""
   pullPolicy: IfNotPresent

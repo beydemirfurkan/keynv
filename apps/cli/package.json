@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keynv-labs/keynv.git",
+    "url": "git+https://github.com/beydemirfurkan/keynv.git",
     "directory": "apps/cli"
   },
-  "homepage": "https://github.com/keynv-labs/keynv#readme",
+  "homepage": "https://github.com/beydemirfurkan/keynv#readme",
   "bugs": {
-    "url": "https://github.com/keynv-labs/keynv/issues"
+    "url": "https://github.com/beydemirfurkan/keynv/issues"
   },
   "keywords": ["secrets", "secrets-management", "vault", "ai-safety", "mcp", "cli", "keynv"],
   "scripts": {

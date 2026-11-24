@@ -3,7 +3,7 @@
 > Self-hosted secrets vault for teams and AI-assisted development.
 
 [![npm](https://img.shields.io/npm/v/@keynv/cli?color=F59E0B)](https://www.npmjs.com/package/@keynv/cli)
-[![license: MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/keynv-labs/keynv/blob/main/LICENSE)
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/beydemirfurkan/keynv/blob/main/LICENSE)
 
 Store your API keys, database URLs, and other secrets in one vault — hosted on
 [keynv.dev](https://keynv.dev) or self-hosted — and reference them everywhere by
@@ -19,7 +19,7 @@ npm install -g @keynv/cli
 ```
 
 Node 20+. Prefer a standalone binary over Node? Every
-[release](https://github.com/keynv-labs/keynv/releases) publishes signed
+[release](https://github.com/beydemirfurkan/keynv/releases) publishes signed
 executables for macOS / Linux / Windows with a `SHA256SUMS` manifest.
 
 ## Quick start
@@ -36,8 +36,8 @@ executables for macOS / Linux / Windows with a `SHA256SUMS` manifest.
 ### Option B · Self-host
 
 Run your own server + panel in ~15 minutes — see the
-[Coolify walkthrough](https://github.com/keynv-labs/keynv/blob/main/deploy/COOLIFY.md)
-or [Docker Compose guide](https://github.com/keynv-labs/keynv/blob/main/deploy/README.md).
+[Coolify walkthrough](https://github.com/beydemirfurkan/keynv/blob/main/deploy/COOLIFY.md)
+or [Docker Compose guide](https://github.com/beydemirfurkan/keynv/blob/main/deploy/README.md).
 Then run `keynv`, choose **Self-hosted server**, and enter your API URL.
 
 > On a headless Linux box with no OS keychain (no libsecret), set
@@ -88,7 +88,7 @@ keynv --help                   # full command list
 
 `keynv` pairs with an MCP server so AI agents can reference secrets by alias and
 never see the value. See the
-[AI setup guide](https://github.com/keynv-labs/keynv/blob/main/docs/ai-setup.md)
+[AI setup guide](https://github.com/beydemirfurkan/keynv/blob/main/docs/ai-setup.md)
 for wiring it into Claude Code, Cursor, and other MCP clients.
 
 ## Also: clean up leaks you already have
@@ -107,12 +107,12 @@ output.
 
 ## Documentation
 
-- [Getting started](https://github.com/keynv-labs/keynv/blob/main/docs/getting-started.md)
-- [AI setup (Claude Code / Cursor / MCP)](https://github.com/keynv-labs/keynv/blob/main/docs/ai-setup.md)
-- [Coolify deploy](https://github.com/keynv-labs/keynv/blob/main/deploy/COOLIFY.md)
-- [Threat model](https://github.com/keynv-labs/keynv/blob/main/docs/02-threat-model.md)
-- [Full README](https://github.com/keynv-labs/keynv#readme)
+- [Getting started](https://github.com/beydemirfurkan/keynv/blob/main/docs/getting-started.md)
+- [AI setup (Claude Code / Cursor / MCP)](https://github.com/beydemirfurkan/keynv/blob/main/docs/ai-setup.md)
+- [Coolify deploy](https://github.com/beydemirfurkan/keynv/blob/main/deploy/COOLIFY.md)
+- [Threat model](https://github.com/beydemirfurkan/keynv/blob/main/docs/02-threat-model.md)
+- [Full README](https://github.com/beydemirfurkan/keynv#readme)
 
 ## License
 
-[MIT](https://github.com/keynv-labs/keynv/blob/main/LICENSE) © keynv-labs and contributors
+[MIT](https://github.com/beydemirfurkan/keynv/blob/main/LICENSE) © keynv-labs and contributors
