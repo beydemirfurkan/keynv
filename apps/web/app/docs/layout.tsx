@@ -28,7 +28,7 @@ export default function DocsLayout({ children }: { children: ReactNode }) {
               Changelog
             </Link>
             <a
-              href="https://github.com/keynv-labs/keynv"
+              href="https://github.com/beydemirfurkan/keynv"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-1.5 hover:text-fg transition-colors duration-fast ease-snap"

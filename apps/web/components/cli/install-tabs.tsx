@@ -27,7 +27,7 @@ const TABS: Tab[] = [
     id: 'brew',
     label: 'Homebrew',
     os: 'mac',
-    install: 'brew install keynv-labs/tap/keynv',
+    install: 'brew install beydemirfurkan/tap/keynv',
     verify: 'keynv --version',
   },
   {

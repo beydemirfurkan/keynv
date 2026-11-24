@@ -12,6 +12,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-rc.26] — 2026-11-24
+
+### Changed
+- **The repository moved** from `keynv-labs/keynv` to
+  [`beydemirfurkan/keynv`](https://github.com/beydemirfurkan/keynv). Package
+  metadata, docs, the installer and the updater now point at the new location.
+  Container images are published to `ghcr.io/beydemirfurkan/keynv-server`
+  (previously `ghcr.io/keynv-labs/keynv-server`), and cosign certificate
+  identities use the new repository path.
+- **Self-hosters using the auto-updater:** an existing `/etc/keynv/update.conf`
+  keeps the old `KEYNV_REPO_URL`. Change it to
+  `https://github.com/beydemirfurkan/keynv.git`.
+- **zod 4** replaces zod 3 in `@keynv/core`, `@keynv/testers`, the server and the
+  web panel. Consumers of the exported schemas need zod `^4.6.6`.
+
+### Added
+- **Auto-installer and auto-updater for self-hosted deployments**, with
+  release/stable/branch channels, pre-update snapshots, automatic rollback and
+  systemd units (`deploy/scripts`, `deploy/systemd`).
+
+### Security
+- Upgraded dependencies to clear every open `pnpm audit` advisory (88 in total,
+  4 critical), including Next.js 15.5.29, Hono 4.13, `@hono/node-server` 2, the
+  MCP SDK 1.32, mysql2, sharp, zod and vite.
+
 ## [0.1.0-rc.25] — 2026-07-13
 
 ### Added
@@ -336,12 +361,13 @@ server, CLI, MCP server, web dashboard, and the AI-safety layer
 - **Postgres adapter, KEK rotation flow, MFA, SSO/SAML, multi-region** —
   Phase 6 (commercial tier + keynv Cloud).
 
-[Unreleased]: https://github.com/keynv-labs/keynv/compare/v0.1.0-rc.25...HEAD
-[0.1.0-rc.25]: https://github.com/keynv-labs/keynv/compare/v0.1.0-rc.24...v0.1.0-rc.25
-[0.1.0-rc.24]: https://github.com/keynv-labs/keynv/compare/v0.1.0-rc.23...v0.1.0-rc.24
-[0.1.0-rc.23]: https://github.com/keynv-labs/keynv/compare/v0.1.0-rc.22...v0.1.0-rc.23
-[0.1.0-rc.22]: https://github.com/keynv-labs/keynv/compare/v0.1.0-rc.21...v0.1.0-rc.22
-[0.1.0-rc.21]: https://github.com/keynv-labs/keynv/compare/v0.1.0-rc.20...v0.1.0-rc.21
-[0.1.0-rc.17]: https://github.com/keynv-labs/keynv/compare/v0.1.0-rc.16...v0.1.0-rc.17
-[0.1.0-rc.16]: https://github.com/keynv-labs/keynv/releases/tag/v0.1.0-rc.16
-[0.1.0-rc.1]: https://github.com/keynv-labs/keynv/releases/tag/v0.1.0-rc.1
+[Unreleased]: https://github.com/beydemirfurkan/keynv/compare/v0.1.0-rc.26...HEAD
+[0.1.0-rc.26]: https://github.com/beydemirfurkan/keynv/compare/v0.1.0-rc.25...v0.1.0-rc.26
+[0.1.0-rc.25]: https://github.com/beydemirfurkan/keynv/compare/v0.1.0-rc.24...v0.1.0-rc.25
+[0.1.0-rc.24]: https://github.com/beydemirfurkan/keynv/compare/v0.1.0-rc.23...v0.1.0-rc.24
+[0.1.0-rc.23]: https://github.com/beydemirfurkan/keynv/compare/v0.1.0-rc.22...v0.1.0-rc.23
+[0.1.0-rc.22]: https://github.com/beydemirfurkan/keynv/compare/v0.1.0-rc.21...v0.1.0-rc.22
+[0.1.0-rc.21]: https://github.com/beydemirfurkan/keynv/compare/v0.1.0-rc.20...v0.1.0-rc.21
+[0.1.0-rc.17]: https://github.com/beydemirfurkan/keynv/compare/v0.1.0-rc.16...v0.1.0-rc.17
+[0.1.0-rc.16]: https://github.com/beydemirfurkan/keynv/releases/tag/v0.1.0-rc.16
+[0.1.0-rc.1]: https://github.com/beydemirfurkan/keynv/releases/tag/v0.1.0-rc.1

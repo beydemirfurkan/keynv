@@ -14,7 +14,7 @@ const poppins = Poppins({
 const TITLE = 'keynv — developer-first secrets management';
 const DESCRIPTION =
   'Store API keys, database credentials, and secrets in one vault. Use safe aliases everywhere.';
-const GITHUB_URL = 'https://github.com/keynv-labs/keynv';
+const GITHUB_URL = 'https://github.com/beydemirfurkan/keynv';
 
 export const metadata: Metadata = {
   title: TITLE,

@@ -39,7 +39,7 @@ export default async function DocPage({ params }: Params) {
   const doc = await loadDoc(slug.join('/'));
   if (!doc) notFound();
 
-  const githubUrl = `https://github.com/keynv-labs/keynv/blob/main/${doc.page.file}`;
+  const githubUrl = `https://github.com/beydemirfurkan/keynv/blob/main/${doc.page.file}`;
 
   return (
     <article>

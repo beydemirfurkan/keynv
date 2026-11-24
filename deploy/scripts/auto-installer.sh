@@ -24,7 +24,7 @@ usage() {
 
 SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
 REPO_ROOT=$(cd -- "$SCRIPT_DIR/../.." && pwd)
-REPO_URL=https://github.com/keynv-labs/keynv.git
+REPO_URL=https://github.com/beydemirfurkan/keynv.git
 UPDATE_CHANNEL=release
 UPDATE_BRANCH=main
 INSTALL_ROOT=/opt/keynv

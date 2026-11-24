@@ -55,7 +55,7 @@ export default async function ChangelogPage() {
               RSS
             </Link>
             <a
-              href="https://github.com/keynv-labs/keynv/blob/main/CHANGELOG.md"
+              href="https://github.com/beydemirfurkan/keynv/blob/main/CHANGELOG.md"
               target="_blank"
               rel="noreferrer"
               className="text-fg-muted hover:text-fg inline-flex items-center gap-1.5 text-sm transition-colors duration-fast ease-snap"

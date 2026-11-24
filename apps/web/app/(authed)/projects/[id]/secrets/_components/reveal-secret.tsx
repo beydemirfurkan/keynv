@@ -79,7 +79,9 @@ export function RevealSecret({
               </>
             )}
           </button>
-          {state.error ? <p className="mt-1.5 text-[11px] text-danger break-words">{state.error}</p> : null}
+          {state.error ? (
+            <p className="mt-1.5 text-[11px] text-danger break-words">{state.error}</p>
+          ) : null}
         </form>
       ) : (
         <div className="space-y-1.5">
@@ -95,7 +97,12 @@ export function RevealSecret({
             >
               {hidden ? <Eye size={13} strokeWidth={2} /> : <EyeOff size={13} strokeWidth={2} />}
             </button>
-            <button type="button" onClick={copyValue} aria-label="Copy value" className={cn(iconButton)}>
+            <button
+              type="button"
+              onClick={copyValue}
+              aria-label="Copy value"
+              className={cn(iconButton)}
+            >
               {copied ? (
                 <Check size={13} strokeWidth={2} className="text-success" />
               ) : (

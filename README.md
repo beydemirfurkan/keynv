@@ -7,8 +7,8 @@
 
 > Self-hosted secrets vault for teams and AI-assisted development.
 
-[![release](https://img.shields.io/github/v/release/keynv-labs/keynv?include_prereleases&sort=semver&color=F59E0B&label=release)](https://github.com/keynv-labs/keynv/releases)
-[![CI](https://img.shields.io/github/actions/workflow/status/keynv-labs/keynv/ci.yml?branch=main&label=ci)](https://github.com/keynv-labs/keynv/actions/workflows/ci.yml)
+[![release](https://img.shields.io/github/v/release/beydemirfurkan/keynv?include_prereleases&sort=semver&color=F59E0B&label=release)](https://github.com/beydemirfurkan/keynv/releases)
+[![CI](https://img.shields.io/github/actions/workflow/status/beydemirfurkan/keynv/ci.yml?branch=main&label=ci)](https://github.com/beydemirfurkan/keynv/actions/workflows/ci.yml)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
 
 Store your API keys, database URLs, and other secrets in one self-hosted

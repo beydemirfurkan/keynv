@@ -84,7 +84,7 @@ jobs:
       matrix:
         include:
           - target: bun-darwin-arm64
-            os: macos-14
+            os: macos-15
             artifact: keynv-darwin-arm64
           - target: bun-darwin-x64
             os: macos-15-intel
@@ -338,7 +338,7 @@ jobs:
         with:
           path: dist-release
           merge-multiple: true
-          # Skip the docker provenance artifact (keynv-labs~keynv~*.dockerbuild)
+          # Skip the docker provenance artifact (<owner>~keynv~*.dockerbuild)
           # uploaded by docker/build-push-action; keep CLI binaries and SBOMs.
           pattern: keynv-*-*
       - name: Generate source SBOM

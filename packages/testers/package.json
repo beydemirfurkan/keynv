@@ -17,11 +17,11 @@
   "publishConfig": { "access": "public" },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keynv-labs/keynv.git",
+    "url": "git+https://github.com/beydemirfurkan/keynv.git",
     "directory": "packages/testers"
   },
-  "homepage": "https://github.com/keynv-labs/keynv#readme",
-  "bugs": { "url": "https://github.com/keynv-labs/keynv/issues" },
+  "homepage": "https://github.com/beydemirfurkan/keynv#readme",
+  "bugs": { "url": "https://github.com/beydemirfurkan/keynv/issues" },
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
@@ -32,10 +32,10 @@
     "@keynv/core": "workspace:*",
     "@keynv/redactor": "workspace:*",
     "ioredis": "^5.4.1",
-    "mysql2": "^3.11.5",
+    "mysql2": "^3.23.1",
     "pg": "^8.13.1",
     "ssh2": "^1.16.0",
-    "zod": "^3.23.8"
+    "zod": "^4.6.6"
   },
   "devDependencies": {
     "@types/pg": "^8.11.10",

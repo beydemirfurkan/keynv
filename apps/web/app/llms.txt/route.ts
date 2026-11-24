@@ -7,7 +7,7 @@
  * docs structure changes.
  */
 const SITE = 'https://keynv.dev';
-const REPO = 'https://github.com/keynv-labs/keynv';
+const REPO = 'https://github.com/beydemirfurkan/keynv';
 
 const BODY = `# keynv
 

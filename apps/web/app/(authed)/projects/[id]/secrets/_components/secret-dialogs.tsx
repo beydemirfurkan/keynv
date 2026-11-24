@@ -58,8 +58,8 @@ export function CreateSecretDialog({
         <DialogTitle>New secret</DialogTitle>
         <DialogDescription>
           The value is sent to the keynv server over TLS and encrypted at rest. Resolve it with{' '}
-          <code className="font-mono text-fg">keynv exec</code> from the CLI, or reveal it here — every
-          reveal is recorded in the audit log.
+          <code className="font-mono text-fg">keynv exec</code> from the CLI, or reveal it here —
+          every reveal is recorded in the audit log.
         </DialogDescription>
 
         <form action={action} className="mt-4 space-y-3">

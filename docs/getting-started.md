@@ -25,7 +25,7 @@ The full step-by-step guide (config, TLS proxy, ops commands, disaster recovery)
 lives in [`deploy/README.md`](../deploy/README.md). Quick summary:
 
 ```bash
-git clone https://github.com/keynv-labs/keynv
+git clone https://github.com/beydemirfurkan/keynv
 cd keynv
 
 # 1. configure — set only the owner email + password
